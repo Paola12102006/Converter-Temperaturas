@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(0, 0, 36);
+    color: aliceblue;
+    margin: auto;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: rgb(0, 0, 36);
+} 
+
+body::-webkit-scrollbar-thumb{
+    background: #00364d;;
+    
+    border-radius: 50px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: monospace;
+}
+
+#p0{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+#alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#page-logo {
+    width: 200px;
+}
+
+#nav{
+    text-align: center;
+}
+
+#div_celsius,#div_fahrenheit{
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#div_celsius{
+    margin-left: 100px;
+}
+
+#div_fahrenheit{
+    margin-left: 200px;
+}
+
+#div_kelvin{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#div_b1,#div_b2,#div_b3{
+    display: block;
+}
+
+#temperatura_celsius,#temperatura_fahrenheit,#temperatura_kelvin{
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding: 3px;
+}
+
+.b1,.b2{
+    font-size: 20px;
+    padding: 7px;
+    border: 4px solid rgb(108, 198, 240);
+    background-color: rgb(180, 219, 238);
+}
+
+.b1{
+    border-style: inset;
+}
+.b2{
+    border-style: outset;
+}
+
+#celsius,#fahrenheit,#kelvin{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(221, 220, 220);
+    background-color: rgb(1, 1, 66);
+    padding: 6px;
+}

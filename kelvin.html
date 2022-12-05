@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="kelvin.css">
+	<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/3815/3815449.png">
+    <script type="text/javascript" src="kelvin.js"></script>
+    <title>Imersão Dev Alura - Aula 03</title>
+</head>
+<body>
+    <div id="nav">
+        <h1>Conversor de Temperatura</h1>
+        <p id="p0">Converta temperaturas em Celsius, Fahrenheit e Kelvin</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" id="page-logo">
+    </div>
+
+    <div id="div_celsius">
+
+        <label class="p1" for="temperatura_celsius">Temperatura em Celsius</label>
+        <input type="number" id="temperatura_celsius" />
+
+        <div id="div_b1">
+            <button class="b1" type="submit" onclick="ConverterC_F()">Converter para Fahrenheit</button>
+            <button class="b2" type="submit" onclick="ConverterC_K()">Converter para Kelvin</button>
+        </div>  
+        <p id="celsius"></p>
+    </div>
+
+    <div id="div_fahrenheit">
+        
+        <label for="temperatura_fahrenheit" class="p1"></p>Temperatura em Fahrenheit</label>
+        <input type="number" id="temperatura_fahrenheit">
+
+        <div id="div_b2">
+            <button class="b1" type="submit" onclick="ConverterF_C()">Converter para Celsius</button>
+            <button class="b2" type="submit" onclick="ConverterF_K()">Converter para Kelvin</button>  
+        </div>
+        <p id="fahrenheit"></p>
+    </div>
+
+    <div id="div_kelvin">
+        
+        <label for="temperatura_kelvin" class="p1">Temperatura em Kelvin</label>
+        <input type="number" id="temperatura_kelvin">
+
+        <div id="div_b3">
+            <button class="b1" type="submit" onclick="ConverterK_C()">Converter para Celsius</button>
+            <button class="b2" type="submit" onclick="ConverterK_F()">Converter para Fahrenheit</button> 
+        </div> 
+
+        <p id="kelvin"></p>
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" id="alura-logo">
+    </a>
+
+    <footer><p>Essa página foi criada pela estudante do 1º de Informática do IFSP<br>Paola da Costa Damasceno</p></footer>
+</body>
+</html>
